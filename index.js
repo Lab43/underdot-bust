@@ -13,7 +13,7 @@ module.exports = (rule = '**/*.@(css|js)') => ({ registerFileHandler, registerTe
     return {path, file};
   });
 
-  registerTemplateHelper('hashed', (metadata, requestedPath) => {
+  registerTemplateHelper('busted', (metadata, requestedPath) => {
 
     // if the path starts with a slash remove it
     // otherwise, rewrite the path to be relative to the page or template it's being requested from
