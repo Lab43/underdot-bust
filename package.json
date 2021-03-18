@@ -1,6 +1,6 @@
 {
   "name": "underdot-bust",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser cache busting for Underdot",
   "main": "index.js",
   "author": "Cameron Spencer <cameron@lab43.com> (https://www.lab43.com)",
